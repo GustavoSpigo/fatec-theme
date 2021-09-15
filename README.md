@@ -1,1 +1,1 @@
-# fatec-theme
+# Tema Wordpress da Fatec Americana

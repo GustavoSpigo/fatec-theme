@@ -1,0 +1,195 @@
+.debug{
+    border: 1px dotted #000;
+}
+.home-wrap{
+    width: 100%;
+}
+.home-group{
+    display: inline-table;
+    width:300px;
+}
+.home-group{
+    padding-right: 15px;
+    padding-left: 15px
+}
+.home-group:first-child{
+    padding-left: 0px
+}
+.home-group:last-child{
+    padding-right: 0px;
+}
+
+.news-img{
+    height: 140px;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.cada-curso{
+    display: none;
+}
+.cada-curso + h3 {
+    cursor: pointer;
+    padding: 5px 5px 5px 5px;
+    margin: 0px;
+    border-radius: 3px 20px 20px 3px;
+    white-space: nowrap;
+}
+/*
+FATEC Cinza:    rgb(74,85,92)
+FATEC Vermelho: rgb(148,22,17)
+Quase Branco:   rgb(242,242,242)
+*/
+.cada-curso:checked + h3 {
+    color: rgb(242,242,242);
+    background-color:  rgb(74,85,92);
+}
+#my-slideshow{
+    border-radius: 2px;
+}
+.cnt{
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.7);
+    margin-left: -20px;
+    padding: 5px 5px 5px 20px;
+    min-height: 300px;
+}
+.home-group-title{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.home-group-title a{
+    color: rgb(148,22,17) !important;
+    text-decoration: initial;
+}
+.home-group-news{
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.5);
+    background-color: #fafafa;
+    border-radius: 2px;
+    height: 601px;
+    width: 280px;
+    padding: 10px;
+    overflow: hidden;
+}
+.home-group-agenda{
+    width: 560px; 
+    overflow: hidden;
+    white-space: nowrap;
+    float: left;
+}
+.home-agenda-wrap{
+    width: 610px;
+    height: 195px; 
+    background-color: #fafafa;
+    border-radius: 2px;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.5);
+}
+
+.home-group-agenda .table{
+    display:table;
+}
+.home-group-agenda .tr{
+    display:table-row;
+}
+.home-more-wrap{
+    position: absolute;
+    height: 544px;
+}
+.home-more{
+    position: absolute;
+    bottom: 15px;
+    height: 50px;
+    width: 280px;
+    background: rgba(250,250,250,1); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient( rgba(250,250,250,0) , rgba(250,250,250,1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( rgba(250,250,250,0), rgba(250,250,250,1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( rgba(250,250,250,0), rgba(250,250,250,1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( rgba(250,250,250,0) , rgba(250,250,250,1)); /* Standard syntax */
+}
+.home-more2{
+    position: absolute;
+    background: #fafafa; /* For browsers that do not support gradients */
+    bottom: -10px;
+    height: 25px;
+    width: 280px;
+    color:rgb(148,22,17); 
+    font-weight: bold;
+    text-align: right;
+}
+.home-cada-date{
+    padding: 10px;
+    white-space: initial;
+    display:table-cell;
+    vertical-align: middle;
+}
+.home-cada-data-wrap{
+    width: 160px;
+}
+.home-cada-data-wrap td{
+    text-align: center;
+    
+}
+.home-cada-data-wrap span{
+    color: rgb(148,22,17);
+}
+.home-cada-data-dia{
+    color: rgb(148,22,17);
+    font-size: 2rem;
+}
+.home-cada-data-mes{
+    font-size: 1.2rem;
+    color: rgb(148,22,17);
+    border-top: 1px solid rgb(148,22,17);
+}
+.home-cada-data-split .home-cada-data-dia{
+    font-size: 1.5rem;
+}
+.home-cada-data-split .home-cada-data-mes{
+    font-size: 0.8rem;
+}
+.home-cada-date-tit{
+    padding-left: 5px;
+    font-size: 0.8rem;
+}
+.home-agenda-more{
+    float: left;
+    position: relative;
+    font-family: 'Material Icons';
+    margin-left: -20px;
+}
+.home-agenda-more2{
+    float: left;
+    font-family: 'Material Icons';
+}
+.home-agenda-more,
+.home-agenda-more2{
+    color: rgb(148,22,17);
+    font-size: 2.5rem;
+    line-height: 140px; 
+    width: 30px;
+    cursor: pointer;
+}
+.home-agenda-more-wrap{
+    position: absolute;
+    width: 600px;
+}
+.home-group-agenda a.link{
+    color: rgb(148,22,17) !important;
+    text-decoration: initial;
+}
+.home-agenda-more-txt{
+    position: absolute;
+    top: 60px;
+    right: -40px;
+    width: 200px;
+    cursor: initial;
+    height: 0px;
+}
+.home-agenda-more-txt .link{
+    color: rgb(148,22,17) !important;
+    text-decoration: initial;    
+    font-family: 'Open Sans', Arial, Verdana;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+.noticias-wrap{
+    width: 300px;
+}

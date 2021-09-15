@@ -1,0 +1,180 @@
+/*  Cores:
+    FATEC Cinza:    rgb(74,85,92)
+    FATEC Vermelho: rgb(148,22,17)
+    Quase Branco:   rgb(242,242,242)
+    Jogos Azul:     rgb(37,34,97)
+    Jogos Laranja:  rgb(240,89,43)
+*/
+#header-mobile{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    html{
+        overflow-x: hidden;
+    }
+    #header{
+        display:none;
+    } 
+    #header-mobile{
+        display: initial;
+    }
+    #header-mobile .menu-menu-principal-container{
+        background-color: rgb(74,85,92);
+        position: absolute;
+        z-index: 100;
+        width: 100vw;
+        margin-top: -2px;
+    }
+    .logo-txt{
+        color: rgb(242,242,242);
+        line-height: 52px;
+        vertical-align: bottom;
+        font-size: 30px;
+    }
+    .header-wrap {
+        height: 50px;
+        background-color: rgb(74,85,92);
+        width: 100vw;
+    }
+    #header-mobile button{
+        background-color: transparent;
+        border: none;
+    }
+    #header-mobile button:focus{
+        outline:none;
+    }
+    #header-mobile .material-icons{
+        line-height: 48px;
+        font-size: 38px;
+        color: rgb(242,242,242);
+    }
+    #header-mobile ul.menu > li{
+        float: initial
+    }
+    .sub-menu{
+        position: initial;
+        display: block;
+        box-shadow: initial;
+        -webkit-box-shadow: initial;
+    }
+    li.menu-item::hover{
+        background-color: initial;
+    }
+    .menu-item-has-children:after{
+        content: initial;
+    }
+    #primaryContent{
+        width: 100vw;
+        min-height:1200px; 
+    }
+    .home-wrap{
+        width: 100vw;
+    }
+    .slider-wrap{
+        height: 980px;
+    }
+    .content-home-slider{
+        float: none ;
+        width: 100vw;
+        width: calc(100vw - 20px);
+        padding: 10px;
+    }
+    .content-home-noticias{
+        float: none ;
+        width: 100vw;
+        width: calc(100vw - 20px);
+        padding: 10px;
+        height: 620px;
+    }
+    .content-home-agenda{
+        width: 100vw;
+        float: none ;
+        width: calc(100vw - 20px);
+        padding: 10px;
+    }
+    .content-box{
+        width: 100vw;
+        float: none ;
+        width: calc(100vw - 40px);
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .content-first-complete{
+        overflow-x: auto;
+    }
+    .content-estagios{
+        height: 100vw;
+        margin-top: 20px;
+    }
+    #my-slideshow{
+        height: 60vw;
+    }
+    .cadaSlide{
+        height: 60vw;
+    }
+    .home-group-news{
+        width: initial;
+    }
+    .home-more, .home-more2{
+        width: calc(100vw - 60px);
+    }
+    .home-agenda-wrap{
+        width: calc(100vw - 20px);
+    }
+    .home-group-agenda {
+        width: calc(100vw - 100px);
+    }
+    .footer-wrap {
+        /*width: 100vw;*/
+        width: calc(100vw - 20px);
+    }
+    .footer-left{
+        display: block;
+    }
+    .conteudo{
+        width: 100vw;
+        width: calc(100vw - 40px);
+    }
+    .share{
+        white-space: initial;
+    }
+    .botoes-menores{
+        opacity: initial;
+        text-align: right;
+        line-height: 14px;
+        position: relative;
+        top: 0; 
+        height: 50px;
+        z-index: 100;
+        background-color: rgb(74,85,92);
+    }
+    .searchform{
+        z-index: 200;
+        position: relative;
+        background-color: rgb(74,85,92);
+        width: 100vw;
+        float: none;
+        display: none;
+    }
+    .searchform input{
+        margin-left: 20px;
+        width: 50vw;
+    }
+    #menu-mobile-container{
+        background-color: rgb(74,85,92);
+
+    }
+    #menu-mobile-container{
+        display: none;
+    }
+    #segundoLink{
+        white-space: normal;
+        max-width: 80vw;
+        height: auto;
+        line-height: 26px;
+    }
+    .perguntaLink{
+        max-width: 80vw;
+    }
+}

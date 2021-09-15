@@ -1,0 +1,267 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fatec-jogos\n"
+"POT-Creation-Date: 2016-06-20 10:18-0300\n"
+"PO-Revision-Date: 2016-06-20 10:32-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments.php:9
+msgid "Enter your password to view comments."
+msgstr "Entre com sua senha para ver comentários."
+
+#: comments.php:12
+msgid "No Comments"
+msgstr "Sem comentários"
+
+#: comments.php:12
+msgid "1 Comment"
+msgstr "1 Comentário"
+
+#: comments.php:12
+msgid "% Comments"
+msgstr "% Comentários"
+
+#: comments.php:14 comments.php:43
+msgid "Leave a comment"
+msgstr "Deixar comentário"
+
+#: comments.php:25
+msgid "Comment"
+msgstr "Comente"
+
+#: comments.php:25
+msgid "Trackback"
+msgstr "Trackback"
+
+#: comments.php:25
+msgid "Pingback"
+msgstr "Pingback"
+
+#: comments.php:25
+msgid "by"
+msgstr "por"
+
+#: comments.php:25
+msgid "Edit This"
+msgstr "Editar"
+
+#: comments.php:33
+msgid "No comments yet."
+msgstr "Sem comentários ainda."
+
+#: comments.php:36
+msgid ""
+"<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for comments on "
+"this post."
+msgstr ""
+"Feed <abbr title=\"Really Simple Syndication\">RSS</abbr> para comentários "
+"desse post."
+
+#: comments.php:38
+msgid "TrackBack <abbr title=\"Universal Resource Locator\">URL</abbr>"
+msgstr "TrackBack <abbr title=\"Universal Resource Locator\">URL</abbr>"
+
+#: comments.php:46
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Você precisa estar <a href=\"%s\">conectado</a> para comentar."
+
+#: comments.php:53
+#, php-format
+msgid "Logged in as %s."
+msgstr "Autenticado como %s."
+
+#: comments.php:53
+msgid "Log out of this account"
+msgstr "Sair desta conta"
+
+#: comments.php:53
+msgid "Logout &raquo;"
+msgstr "Sair"
+
+#: comments.php:58
+msgid "Name"
+msgstr "Nome"
+
+#: comments.php:58 comments.php:61
+msgid "(required)"
+msgstr "(obrigatório)"
+
+#: comments.php:61
+msgid "Mail (will not be published)"
+msgstr "Emaill (não será publicado)"
+
+#: comments.php:64
+msgid "Website"
+msgstr "Site"
+
+#: comments.php:68
+#, php-format
+msgid "You can use these tags: %s"
+msgstr "Você pode usar estas tags: %s"
+
+#: comments.php:72
+msgid "Submit Comment"
+msgstr "Enviar Comentário"
+
+#: comments.php:82
+msgid "Sorry, the comment form is closed at this time."
+msgstr "Desculpe, o formulário de comentários está fechado neste momento."
+
+#: functions.php:92
+msgid "Estilo do Post"
+msgstr "Estilo do Post"
+
+#: functions.php:150
+msgid "Jogos"
+msgstr "Jogos"
+
+#: functions.php:151
+msgid "Jogo"
+msgstr "Jogo"
+
+#: functions.php:152 functions.php:153 functions.php:155
+msgid "Adicionar novo jogo"
+msgstr "Adicionar novo jogo"
+
+#: functions.php:154
+msgid "Editar jogo"
+msgstr "Editar jogo"
+
+#: functions.php:156
+msgid "Ver jogo"
+msgstr "Ver jogo"
+
+#: functions.php:157
+msgid "Procurar jogos"
+msgstr "Procurar jogos"
+
+#: functions.php:158
+msgid "Nenhum jogo encontrado"
+msgstr "Nenhum jogo encontrado"
+
+#: functions.php:159
+msgid "Nenhum jogo na lixeira"
+msgstr "Nenhum jogo na lixeira"
+
+#: functions.php:176
+msgid "Slider Inicial"
+msgstr "Slider Inicial"
+
+#: functions.php:177
+msgid "Slide"
+msgstr "Slide"
+
+#: functions.php:178 functions.php:179 functions.php:181
+msgid "Adicionar novo slide"
+msgstr "Adicionar novo slide"
+
+#: functions.php:180
+msgid "Editar slide"
+msgstr "Editar slide"
+
+#: functions.php:182
+msgid "Ver slide"
+msgstr "Ver slide"
+
+#: functions.php:183
+msgid "Procurar slides"
+msgstr "Procurar slides"
+
+#: functions.php:184
+msgid "Nenhum slide encontrado"
+msgstr "Nenhum slide encontrado"
+
+#: functions.php:185
+msgid "Nenhum slide na lixeira"
+msgstr "Nenhum slide na lixeira"
+
+#: index.php:16 page.php:98 single.php:18
+msgid "(more...)"
+msgstr "(mais...)"
+
+#: index.php:17 single.php:19
+msgid "Tags: "
+msgstr "Tags:"
+
+#: index.php:17
+msgid "Comments (0)"
+msgstr "Comentários (0)"
+
+#: index.php:17
+msgid "Comments (1)"
+msgstr "Comentários (1)"
+
+#: index.php:17
+msgid "Comments (%)"
+msgstr "Sem comentários"
+
+#: index.php:17 page.php:99 single.php:19
+msgid "Edit"
+msgstr "Editar"
+
+#: index.php:30
+msgid "Sorry, no posts matched your criteria."
+msgstr "Desculpe, nenhum post corresponde aos seus critérios."
+
+#: sidebar.php:10
+msgid "Categories:"
+msgstr "Categorias:"
+
+#: sidebar.php:13
+msgid "Search:"
+msgstr "Pesquisar:"
+
+#: sidebar.php:17
+msgid "Search"
+msgstr "Pesquisar"
+
+#: sidebar.php:22
+msgid "Archives:"
+msgstr "Arquivos:"
+
+#: sidebar.php:26
+msgid "Meta:"
+msgstr "Meta:"
+
+#: sidebar.php:30
+msgid "Syndicate this site using RSS"
+msgstr "Assinar este site usando RSS 2.0"
+
+#: sidebar.php:30
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr>"
+
+#: sidebar.php:31
+msgid "The latest comments to all posts in RSS"
+msgstr "Os Últimos comentários para todos os posts em RSS"
+
+#: sidebar.php:31
+msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr "Comentários <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+
+#: sidebar.php:32
+msgid "This page validates as XHTML 1.0 Transitional"
+msgstr "Esta página valida como XHTML 1.0 Transitional"
+
+#: sidebar.php:32
+msgid "Valid <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
+msgstr ""
+"Válido <abbr title=\\\"eXtensible HyperText Markup Language\\\">XHTML</abbr>"
+
+#: sidebar.php:34
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+"Produzida por WordPress, uma plataforma semântica de vanguarda para "
+"publicação pessoal."

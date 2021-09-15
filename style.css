@@ -1,0 +1,502 @@
+/**
+  Theme Name: Fatec
+  Version: 2021.09.15
+  Author: Gustavo Gomes
+  Author URI: http://www.spigo.net
+  Tags: simple, clean, fixed width, widget-ready, widgets, right sidebar, two columns, valid XHTML, valid CSS, blank-slate
+  Licence: LGPL
+  
+  Description: Tema para o site da FATEC Americana
+  Cores:
+    FATEC Cinza:    rgb(74,85,92)
+    FATEC Vermelho: rgb(148,22,17)
+    Quase Branco:   rgb(242,242,242)
+    Jogos Azul:     rgb(37,34,97)
+    Jogos Laranja:  rgb(240,89,43)
+*/
+#wpadminbar {
+    display: none;
+}
+html, body{
+    margin:0px;
+    padding:0px;
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Open Sans', Arial, Verdana;
+}
+
+ul.menu li a{
+    margin:0px;
+    font-family: 'Myriad Web Pro', Arial, Verdana;
+}
+.menu2 span{
+    font-family: 'Myriad Web Pro', Arial, Verdana;
+}
+ul{
+    margin:0px;
+}
+
+#primaryContent{
+    min-height: 675px;
+    width: 940px;
+    margin: auto;
+}
+#header{
+    height: 160px;
+    margin: auto;
+    width: 940px;
+    z-index: 5000;
+}
+.header-wrap{
+    height: 160px;
+}
+
+#footer{
+    padding: 10px 10px;
+    position: relative;
+    z-index: 2;
+}
+.header-pesq{
+    height: 50px;
+    padding-top: 15px;
+}
+.header-pesq > div{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.header-logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+/*****************************************
+****************** MENU ******************
+******************************************/
+/*.header-menu{
+    float: left;
+}*/
+.menu-item-has-children{
+    background-repeat: no-repeat;
+    background-position: right;
+}
+ul.menu > li {
+    float: left;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+ul.sub-menu li {
+    float: none;
+    z-index: 50;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+    text-transform: initial;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+    z-index: 50;
+    white-space: nowrap;
+ }
+.menu-item-has-children:hover .sub-menu {
+    display: block;
+}
+.menu-item-has-children .menu-item-has-children:after{
+    content: none;
+}
+.sub-menu .sub-menu{
+    position: initial;
+    box-shadow: initial;
+}
+li.menu-item{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+li.menu-item:hover{
+    background-color: #3b444a;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+ul.menu li a {
+    text-decoration: none;
+    font-size: 17px;
+}
+ul.sub-menu li a {
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: initial;
+}
+.menu-item-has-children:after {
+    font-size: 16px;
+    content: "\E5C5";
+    font-family: 'Material Icons';
+}
+.header-menu2{
+    float: right;
+    height: 110px;
+}
+.menu2{
+    width: 100%;
+    height: 50%;
+    padding-right: 10px;
+    line-height: 26px;
+    text-align: center;
+}
+.menu2 a{
+    text-decoration: none;
+    white-space: nowrap;
+}
+.menu2 .material-icons{
+    font-size: 1.3rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.menu2 .material-icons, .menu2 span{
+    vertical-align: middle;
+}
+.searchform{
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: center;
+    float: right;
+    width: 140px;
+}
+.searchform input{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+}
+
+.sub-manual-pai{
+    display: inline-block;
+    list-style-type: none;
+}
+.sub-manual{
+    position: absolute;
+    background-color: gray;
+    padding: 5px;
+    width: 185px;
+    display: none;
+    margin-top: -5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+    z-index: 50;
+    text-align: left;
+}
+.menu2 > li:hover .sub-manual{
+    display: block;
+}
+
+.social-links{
+    float:right; 
+}
+.social-links svg{
+    width: 24px;
+    height: 24px;
+    line-height: 34px;
+    opacity: 0.5;
+    padding-top: 5px;
+}
+.social-links svg:hover{
+    opacity: 1;
+}
+.menu-texto-wrap{
+    height: 50px;
+    color:#f2f2f2;
+    background-color: rgb(74,85,92);
+    position: absolute;
+    width: 100%;
+    left: 0px;
+}
+.menu-texto-wrap > div{
+    width: 940px;
+    margin: auto;
+    position: relative;
+}
+.logo-wrap{
+    float:left;
+    width:400px;
+}
+
+.header-menor .menu-texto-wrap{
+    height: 50px !important;
+    width: 100% !important;
+    position: fixed;
+    top: 0;
+    z-index: 5000;
+}
+.botoes-menores{
+    opacity: 0;
+    transition-delay: 0s;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    text-align: right;
+    line-height: 50px;
+    position: relative;
+    top: -50px;
+    height: 50px;
+}
+.header-menor .botoes-menores{
+    opacity: 1;
+}
+.header-menor .botoes-menores .material-icons{
+    width: 25px;
+    z-index: 30;
+}
+.botoes-menores .material-icons a{
+    color: rgb(242,242,242);
+    text-decoration: none;
+}
+.botoes-menores .material-icons:hover{
+    text-shadow: 2px 2px 17px #fafafa;
+}
+.botoes-menores .material-icons{
+    line-height: 50px;
+    width: 50px;
+    transition-delay: 0s;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+#menu-menu-principal{
+    height:50px;
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: -90px;
+    transition-delay: 0s;
+    transition-property: padding, background;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+.menu-menu-principal-container li{
+    z-index: 40;
+    position: relative;
+}
+.header-menor #menu-menu-principal{
+    padding-left: 100px !important;
+    background-position: 5px;
+} 
+
+#footer .sub-menu{
+    display:block;
+    box-shadow: initial;
+    position: initial;
+}
+#footer ul.menu > li {
+    float: initial; 
+    display: inline-table;
+}
+#footer .menu-item-has-children:after {
+    content: none;
+}
+#footer ul.menu li a {
+    font-size: 0.8rem;
+}
+#footer ul.sub-menu li{
+    padding: 0px;
+}
+#footer ul.menu > li {
+    padding-right: 6px;
+    padding-left: 6px;
+}
+#footer li.menu-item:hover{
+    background-color: initial;
+}
+.footer-left{
+    display: table-cell;
+    width: 100%;
+    vertical-align: top;
+}
+.footer-right{
+    display: table-cell;
+    vertical-align: top;
+}
+.footer-wrap{
+    width: 940px;
+    margin: auto; 
+}
+#footer center{
+    font-size: 0.8rem;
+}
+.imagem-print{
+    display: none;
+}
+
+#footer iframe{
+    border-radius: 2px;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.5);
+}
+.header-menor .btn-top{
+    bottom: 10px;
+}
+.btn-top{
+    position: fixed;
+    box-shadow: 0px 2px 8px 0px rgba(242,242,242,1);
+    bottom: -40px;
+    right: 10px;
+    background-color: rgb(74,85,92);
+    border-radius: 2px;
+    transition-delay: 0s;
+    transition-property: bottom;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    z-index: 2000;
+}
+.btn-top .material-icons{
+    color: rgb(242,242,242);
+    font-size: 2rem; 
+}
+
+.content-home-slider{
+    width: 610px;
+    float: left;
+    padding: 25px 0px;
+}
+.content-home-noticias{
+    width: 300px;
+    float: right;
+    height: 500px;
+    padding: 25px 0px;
+}
+.content-home-agenda{
+    width: 610px;
+    float: left;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently not supported by any browser */
+}
+.content-first-complete{
+    height: 110px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content-box{
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.5);
+    background-color: #fafafa;
+}
+.content-estagios{
+    height:300px;
+    width: 620px;
+    overflow-y: auto;
+    float:left;
+}
+.content-docs{
+    height:480px;
+    width: 620px;
+    overflow-y: auto;
+    float:left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content-news{
+    height:800px;
+    width:300px;
+    overflow-y: auto;
+    float:right;
+}
+@media print {
+    #footer, 
+    header-wrap,
+    #header,
+    .second-header{
+        display:none;
+    }
+    .imagem-print{
+        display: block;
+    }
+}
+
+.perguntaLinkContainer{
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000060;
+    z-index: 1000;
+}
+.perguntaLink{
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);    
+    width: 455px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20vh;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+#segundoLink{
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.125rem;
+    text-transform: uppercase;
+    color: rgba(0,0,0,.87);
+    background-color: #FFF;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    height: 2.25rem;
+    padding: 0 1.625rem;
+    margin: .375rem 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    background-image: none;
+    text-align: center;
+    line-height: 2.25rem;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: .875rem;
+    font-family: inherit;
+    letter-spacing: .03em;
+    position: relative;
+    overflow: hidden;
+    color: #FFF;
+    background-color: #2196F3;
+    box-shadow: 0 0 2px rgba(0,0,0,.12), 0 2px 2px rgba(0,0,0,.2);
+    text-decoration: unset;
+}
+.perguntaLabel{
+    margin-bottom: 30px;
+}
+.perguntaVoltar{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
